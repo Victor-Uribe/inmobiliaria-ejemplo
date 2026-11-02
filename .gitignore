@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+vendor/
+dist/
+frontend/dist/
+public/build/
+.DS_Store
+.idea/
+.vscode/

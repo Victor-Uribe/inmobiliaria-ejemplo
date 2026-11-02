@@ -1,0 +1,54 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="1500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07101A"/>
+      <stop offset=".38" stop-color="#11100E"/>
+      <stop offset=".78" stop-color="#050504"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="238" y1="322" x2="1052" y2="1062" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1BD"/>
+      <stop offset=".45" stop-color="#D4A960"/>
+      <stop offset="1" stop-color="#77501F"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="363" y1="478" x2="815" y2="927" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F5FF" stop-opacity=".72"/>
+      <stop offset=".55" stop-color="#2E495B" stop-opacity=".66"/>
+      <stop offset="1" stop-color="#0A1118"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="24" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.83 0 1 0 0 0.58 0 0 1 0 0.25 0 0 0 0.8 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(894 299) rotate(112) scale(461 406)">
+      <stop stop-color="#D4A960" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#D4A960" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1500" rx="64" fill="url(#sky)"/>
+  <rect width="1200" height="1500" rx="64" fill="url(#halo)"/>
+  <circle cx="934" cy="242" r="178" fill="#D4A960" opacity=".14" filter="url(#glow)"/>
+  <path d="M132 1156c194-84 330-94 538-38 174 47 296 7 398-54v436H132v-344z" fill="#070706"/>
+  <path d="M136 1168c194-84 346-70 520-26 206 52 315 9 412-72" stroke="#D4A960" stroke-width="3" opacity=".36"/>
+  <path d="M152 448l438-184 458 184v580H152V448z" fill="#15110D"/>
+  <path d="M206 498l384-154 401 154v474H206V498z" fill="#211811"/>
+  <path d="M140 455l450-192 470 192" stroke="url(#gold)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M273 576h239v395H273z" fill="url(#glass)" stroke="#D4A960" stroke-opacity=".28" stroke-width="4"/>
+  <path d="M570 548h339v172H570z" fill="url(#glass)" stroke="#D4A960" stroke-opacity=".28" stroke-width="4"/>
+  <path d="M570 774h339v197H570z" fill="url(#glass)" stroke="#D4A960" stroke-opacity=".28" stroke-width="4"/>
+  <path d="M320 972V690h142v282H320z" fill="#050504"/>
+  <path d="M340 704h104" stroke="#D4A960" stroke-width="5" opacity=".58"/>
+  <path d="M608 600h250M608 829h250" stroke="#FFF1BD" stroke-width="5" opacity=".34"/>
+  <g filter="url(#glow)" opacity=".9">
+    <path d="M612 664h242" stroke="#D4A960" stroke-width="8" stroke-linecap="round"/>
+    <path d="M611 919h245" stroke="#D4A960" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <rect x="198" y="1000" width="812" height="38" rx="19" fill="url(#gold)" opacity=".92"/>
+  <path d="M88 1065h1016" stroke="#FFF1BD" stroke-width="12" stroke-linecap="round" opacity=".2"/>
+  <path d="M86 1260h1030" stroke="#D4A960" stroke-width="3" opacity=".18"/>
+  <path d="M166 1214c88-39 162-39 247 0M536 1201c103-45 209-37 310 12" stroke="#D4A960" stroke-width="5" stroke-linecap="round" opacity=".3"/>
+  <g opacity=".35">
+    <path d="M97 236h280M97 274h168" stroke="#FFF1BD" stroke-width="9" stroke-linecap="round"/>
+    <path d="M97 312h232" stroke="#D4A960" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

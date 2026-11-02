@@ -1,0 +1,14 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#080807"/>
+  <circle cx="1010" cy="120" r="180" fill="#D4A960" opacity=".18"/>
+  <circle cx="110" cy="585" r="220" fill="#D4A960" opacity=".12"/>
+  <rect x="720" y="112" width="338" height="370" rx="34" fill="#15110D"/>
+  <path d="M758 482V238l132-70 132 70v244H758z" fill="#211811"/>
+  <path d="M745 238l145-76 154 76" stroke="#D4A960" stroke-width="22" stroke-linecap="round"/>
+  <path d="M812 482V312h70v170H812z" fill="#050504"/>
+  <path d="M918 312h66v84h-66z" fill="#D4A960"/>
+  <text x="92" y="190" fill="#F2D9A2" font-family="Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="8">ESTADO INMUEBLES</text>
+  <text x="88" y="300" fill="#FFF8EA" font-family="Georgia, serif" font-size="76" font-weight="700">Compra, venta y renta</text>
+  <text x="88" y="388" fill="#FFF8EA" font-family="Georgia, serif" font-size="76" font-weight="700">de propiedades</text>
+  <text x="92" y="462" fill="#A8A096" font-family="Arial, sans-serif" font-size="30">Landing inmobiliaria premium en Estado de México</text>
+</svg>
